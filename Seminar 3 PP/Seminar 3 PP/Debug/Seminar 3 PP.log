@@ -1,0 +1,44 @@
+﻿  Seminar 3.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(238): error C2672: 'std::invoke': no matching overloaded function found
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(246): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4>(std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>> &,std::integer_sequence<_Ty,0,1,2,3,4>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>,std::default_delete<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>>>,
+              _Ty=size_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(245): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4>(std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>> &,std::integer_sequence<_Ty,0,1,2,3,4>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>,std::default_delete<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>>>,
+              _Ty=size_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(242): note: while compiling class template member function 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept'
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>,std::default_delete<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(230): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>,std::default_delete<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(257): note: see reference to class template instantiation 'std::_LaunchPad<_Target>' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>,std::default_delete<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thread(46): note: see reference to function template instantiation 'void std::_Launch<std::unique_ptr<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>,std::default_delete<_Ty>>>(_Thrd_t *,_Target &&)' being compiled
+          with
+          [
+              _Ty=std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>,
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>,std::default_delete<std::tuple<void (__cdecl *)(int *,int,int,int &),int *,int,int,std::reference_wrapper<unsigned int>>>>
+          ]
+  t:\seminar 3 pp\seminar 3 pp\seminar 3.cpp(113): note: see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(int *,int,int,int &),int*&,int,int,std::reference_wrapper<unsigned int>,void>(_Fn,int *&,int &&,int &&,std::reference_wrapper<unsigned int> &&)' being compiled
+          with
+          [
+              _Fn=void (__cdecl &)(int *,int,int,int &)
+          ]
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(237): error C2893: Failed to specialize function template 'unknown-type std::invoke(_Callable &&,_Types &&...) noexcept(<expr>)'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(237): note: With the following template arguments:
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(237): note: '_Callable=void (__cdecl *)(int *,int,int,int &)'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(237): note: '_Types={int *, int, int, std::reference_wrapper<unsigned int>}'
