@@ -1,0 +1,63 @@
+﻿  Seminar 4.cpp
+t:\seminar 4 pp\seminar 4 pp\seminar 4.cpp(52): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\type_traits(16707566): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\type_traits(16707566): note: see reference to function template instantiation 'void std::_Invoker_functor::_Call<void(__cdecl *)(std::set<int,std::less<int>,std::allocator<_Kty>> &,int,int),_Ty,double,int>(_Callable &&,_Ty &&,double &&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Callable=void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int)
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(237): note: see reference to function template instantiation 'void std::invoke<void(__cdecl *)(std::set<int,std::less<int>,std::allocator<_Kty>> &,int,int),std::reference_wrapper<std::set<_Kty,std::less<int>,std::allocator<_Kty>>>,double,int>(_Callable &&,std::reference_wrapper<std::set<_Kty,std::less<int>,std::allocator<_Kty>>> &&,double &&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Kty=int,
+              _Callable=void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int)
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(246): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3>(std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<_Kty>> &,int,int),std::reference_wrapper<std::set<_Kty,std::less<int>,std::allocator<_Kty>>>,double,int> &,std::integer_sequence<_Ty,0,1,2,3>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>,std::default_delete<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>>>,
+              _Kty=int,
+              _Ty=size_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(245): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3>(std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<_Kty>> &,int,int),std::reference_wrapper<std::set<_Kty,std::less<int>,std::allocator<_Kty>>>,double,int> &,std::integer_sequence<_Ty,0,1,2,3>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>,std::default_delete<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>>>,
+              _Kty=int,
+              _Ty=size_t
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(242): note: while compiling class template member function 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept'
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>,std::default_delete<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(230): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>,std::default_delete<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thr\xthread(257): note: see reference to class template instantiation 'std::_LaunchPad<_Target>' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>,std::default_delete<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\thread(46): note: see reference to function template instantiation 'void std::_Launch<std::unique_ptr<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<_Kty>> &,int,int),std::reference_wrapper<std::set<_Kty,std::less<int>,std::allocator<_Kty>>>,double,int>,std::default_delete<_Ty>>>(_Thrd_t *,_Target &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>,
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>,std::default_delete<std::tuple<void (__cdecl *)(std::set<int,std::less<int>,std::allocator<int>> &,int,int),std::reference_wrapper<std::set<int,std::less<int>,std::allocator<int>>>,double,int>>>
+          ]
+  t:\seminar 4 pp\seminar 4 pp\seminar 4.cpp(66): note: see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(std::set<int,std::less<int>,std::allocator<_Kty>> &,int,int),std::reference_wrapper<std::set<_Kty,std::less<int>,std::allocator<_Kty>>>,double,const int&,void>(_Fn,std::reference_wrapper<std::set<_Kty,std::less<int>,std::allocator<_Kty>>> &&,double &&,const int &)' being compiled
+          with
+          [
+              _Kty=int,
+              _Fn=void (__cdecl &)(std::set<int,std::less<int>,std::allocator<int>> &,int,int)
+          ]
+  Seminar 4 PP.vcxproj -> T:\Seminar 4 PP\Debug\Seminar 4 PP.exe
