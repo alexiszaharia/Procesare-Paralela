@@ -1,0 +1,4 @@
+﻿  Seminar6PP.cpp
+t:\seminar6pp\seminar6pp\seminar6pp.cpp(6): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+t:\seminar6pp\seminar6pp\seminar6pp.cpp(82): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Seminar6PP.vcxproj -> T:\Seminar6PP\Debug\Seminar6PP.exe
