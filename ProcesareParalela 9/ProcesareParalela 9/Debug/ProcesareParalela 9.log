@@ -1,0 +1,5 @@
+﻿  Curs9 BubbleSort.cpp
+c1xx : warning C4199: two-phase name lookup is not supported for C++/CLI, C++/CX, or OpenMP; use /Zc:twoPhase-
+t:\procesareparalela 9\procesareparalela 9\curs9 bubblesort.cpp(163): warning C4326: return type of 'main' should be 'int' instead of 'void'
+t:\procesareparalela 9\procesareparalela 9\curs9 bubblesort.cpp(164): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  ProcesareParalela 9.vcxproj -> T:\ProcesareParalela 9\Debug\ProcesareParalela 9.exe
