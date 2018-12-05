@@ -1,0 +1,9 @@
+﻿  Source.cpp
+c1xx : warning C4199: two-phase name lookup is not supported for C++/CLI, C++/CX, or OpenMP; use /Zc:twoPhase-
+t:\pp seminar 10\project1\project1\source.cpp(48): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+t:\pp seminar 10\project1\project1\source.cpp(73): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+t:\pp seminar 10\project1\project1\source.cpp(145): warning C4326: return type of 'main' should be 'int' instead of 'void'
+t:\pp seminar 10\project1\project1\source.cpp(175): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+t:\pp seminar 10\project1\project1\source.cpp(27): warning C4715: 'countWordsStream': not all control paths return a value
+t:\pp seminar 10\project1\project1\source.cpp(42): warning C4715: 'countWordsStream_2': not all control paths return a value
+  Project1.vcxproj -> T:\PP seminar 10\Project1\Debug\Project1.exe
